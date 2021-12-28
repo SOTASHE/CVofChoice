@@ -117,9 +117,7 @@
                       <div class="form-row py-3 white-text">
   
                                    <div class="offset-6 col-lg-3">
-                                          <form method="POST" action="<?php  echo base_url(); ?>​Signup">
-                                              <button type="submit" class="btn1">Next</button>
-                                          </form>
+                                        <a href="<?php echo base_url('Employer_signup'); ?>"><button type="button" class="btn1">Next</button></a>
                                    </div>
                           
                       </div>

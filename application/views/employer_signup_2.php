@@ -89,9 +89,7 @@
                       <div class="form-row py-3 white-text">
   
                                 <div class="offset-5 col-lg-2">
-                                       <form method="" action="<?php  echo base_url(); ?>​../Signup/signup2">
-                                           <button id=""  type="submit" class="btn1">Register</button>
-                                       </form>
+                                       <a href="<?php echo base_url(''); ?>"><button type="button" class="btn1">Register</button></a>
                                 </div>
                           
                       </div>

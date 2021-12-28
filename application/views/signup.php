@@ -115,11 +115,11 @@
 
                       <div class="form-row py-3 white-text">
   
-                                    <div class="offset-6 col-lg-3">
+                                     <div class="offset-6 col-lg-3">
                           
-                                             <a href="<?php echo base_url('Seeker_Signup/signup_2'); ?>"> <button type="submit" class="btn1">Next</button></a>
+                                           <a href="<?php echo base_url('Seeker_Signup/signup_2'); ?>"><button type="button" class="btn1">Next</button></a>
                                         
-                                    </div>
+                                     </div>
                           
                       </div>
                    </div>
