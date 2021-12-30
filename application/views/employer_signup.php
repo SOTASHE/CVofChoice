@@ -25,7 +25,7 @@
 
 <body>
 <section class="py-5">
-   <nav class="py-3 navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+   <nav class=" navbar navbar-expand-lg navbar-light bg-light py-3" role="navigation">
     <div style=" position:fixed;"class="container-fluid blue-navbar" >
 
       <a class="navbar-brand" href="#">
@@ -69,10 +69,10 @@
 </section>
 
 <!-- the section below contains the login form-->
-<section class="login py-5 bg-light my-5">
+<section class="login  bg-light py-5">
      <div class="container">
           <div class="row the-row g-0">
-             <div class="col-lg-12 text-center py-5">
+             <div class="col-lg-12 text-center py-3">
               
              <h1 class="animate__animated animate__pulse" style="color: #fff;">New Recruiter Account</h1>
             
@@ -154,7 +154,7 @@
                       <i class="fab fa-instagram fa-lg  mr-md-5 mr-3 fa-3x"> </i>
             </a>
 
-            <div class="footer-copyright text-center py-5">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
+            <div class="footer-copyright text-center py-2">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
                     
               </div>
         </div>
@@ -167,7 +167,4 @@
   </div>
 </footer>
 <!-- Footer -->
-
-
-
 </html>

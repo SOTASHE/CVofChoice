@@ -23,15 +23,14 @@
   <title>New Recruiter Account | CV of Choice</title>
   </head>
   <body>
-<section>
-</br>
-</br>
-</br>
-<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+<section class="py-5">
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-3" role="navigation">
   <div style="position:fixed;"class="container-fluid blue-navbar" >
-    <a class="navbar-brand" href="#">
-      <img src="../assets/images/official.png" class="img-circle  img-fluid"  alt="our logo" width="150" height="150">
-    </a>
+    <div class="logo-image">
+      <a class="navbar-brand" href="#">
+        <img src="../assets/images/official.png" class="img-circle  img-fluid"  alt="our logo" width="150" height="150">
+      </a>
+   </div>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -67,28 +66,32 @@
 </section>
 
 <!-- the section below contains the login form-->
-<section class="login py-5 bg-light my-5">
-     <div class="container">
+<section class="login bg-light py-5 ">
+     <div class="container py-3">
           <div class="row the-row g-0">
              <div class="col-lg-12 text-center py-5">
              <!-- the actual login form begins-->
             <form class="text-center">
                 <h3 class="animate__animated animate__pulse col-lg-12 py-3" style="color: #fff;">Now let's secure your account...</h3>
                     <div class="form-row py-2">
-                          <div class="offset-3 col-lg-6">
+                          <div class="offset-4 col-lg-4">
+                               <i id="filtersubmit" class="fas fa-lock fa-2x " aria-hidden="true"></i>
                                 <input type="text" class="inp px-3 text-center" placeholder="Password" style="color:rgb(105, 105, 236);" required>
                           </div>
                     </div>
 
                     <div class="form-row py-2">
-                          <div class="offset-3 col-lg-6">
+                          <div class="offset-4 col-lg-4">
+                                <i id="filtersubmit" class="fas fa-lock fa-2x " aria-hidden="true"></i>
                                 <input type="text" class="inp px-3 text-center" placeholder="Confirm Password" style="color:rgb(105, 105, 236);" required>
                           </div>
                     </div>
 
                       <div class="form-row py-3 white-text">
-  
-                                <div class="offset-5 col-lg-2">
+                               <div class="offset-3 col-lg-2">
+                                       <a href="<?php echo base_url('Signup'); ?>"><button type="button" class="btn1">Previous</button></a>
+                                </div>
+                                <div class="offset-4 col-lg-4">
                                        <a href="<?php echo base_url(''); ?>"><button type="button" class="btn1">Register</button></a>
                                 </div>
                           
@@ -103,9 +106,9 @@
   </body>
   <footer class="page-footer text-center font-small cyan darken-3 blue-navbar">
   <!-- Footer Elements -->
-  <div class="container">
+  <div class="container py-1">
     <!-- Grid row-->
-    <div class="row">
+    <div class="row py-3">
       <!-- Grid column -->
       <div class="col-md-12 py-5 home-footer " >
         <div class="mb-5 flex-center" style="color: white; padding: 7px 15px; margin: 0px 15px;" >
@@ -126,7 +129,7 @@
                       <i class="fab fa-instagram fa-lg  mr-md-5 mr-3 fa-3x"> </i>
             </a>
 
-            <div class="footer-copyright text-center py-5">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
+            <div class="footer-copyright text-center py-3">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
                     
               </div>
         </div>

@@ -1,111 +1,118 @@
-                                        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Carter+One&family=Changa:wght@600&family=MuseoModerno:wght@600&display=swap');
-                                        * {
-                                            margin: 0px;
-                                            padding: 0px;
-                                            -webkit-box-sizing: border-box;
-                                            -moz-box-sizing: border-box;
-                                            box-sizing: border-box;
-                                            font-family: 'Carter One', cursive;
-                                        }
-                                        
-                                        .blue-navbar {
-                                            background-color: rgb(105, 105, 236) !important;
-                                        }
-                                        
-                                        .blue-box {
-                                            width: 100%;
-                                            margin: 10px;
-                                            padding: 110px;
-                                            background-color: rgb(105, 105, 236);
-                                            color: white;
-                                            border-radius: 15px 50px 30px;
-                                        }
-                                        
-                                        .navbar ul li a.act,
-                                        .navbar ul li a:hover {
-                                            background-color: white;
-                                            color: blue !important;
-                                        }
-                                        
-                                        .navbar ul li a {
-                                            padding: 7px 15px;
-                                            margin: 0px 15px;
-                                        }
-                                        
-                                        .i.act,
-                                        .i:hover {
-                                            color: blue !important;
-                                        }
-                                        
-                                        .h1 {
-                                            color: blue;
-                                        }
-                                        
-                                        .home-footer {
-                                            padding: 7px 15px;
-                                            margin: 0px 15px;
-                                            color: rgb(158, 146, 146);
-                                        }
-                                        
-                                        .the-row {
-                                            background: rgb(105, 105, 236);
-                                            border-radius: 30px;
-                                            box-shadow: 8px 8px 8px;
-                                        }
-                                        
-                                        .login {
-                                            border-top-left-radius: 30px;
-                                            border-bottom-left-radius: 30px;
-                                            background-color: rgb(105, 105, 236);
-                                        }
-                                        
-                                        .inp {
-                                            height: 50px;
-                                            width: 70%;
-                                            border: none;
-                                            outline: none;
-                                            border-radius: 60px;
-                                            box-shadow: -1px -2px 18px -3px rgba(56, 150, 212, 0.51);
-                                            -webkit-box-shadow: -1px -2px 18px -3px rgba(56, 150, 212, 0.51);
-                                            -moz-box-shadow: -1px -2px 18px -3px rgba(56, 150, 212, 0.51);
-                                        }
-                                        
-                                        .btn1 {
-                                            height: 50px;
-                                            width: 50%;
-                                            border: none;
-                                            outline: none;
-                                            border-radius: 60px;
-                                            font-weight: 600;
-                                            background: white;
-                                            color: rgb(105, 105, 236);
-                                        }
-                                        
-                                        .btn1:hover {
-                                            background: rgb(105, 105, 236);
-                                            color: white;
-                                        }
-                                        
-                                        .i:hover {
-                                            background: rgb(105, 105, 236);
-                                        }
-                                        
-                                        select {
-                                            background: rgb(105, 105, 236);
-                                            color: white;
-                                            border: none;
-                                        }
-                                        
-                                        .logo-image {
-                                            padding-top: 30px;
-                                            margin: 10px;
-                                        }
-                                        
-                                        .header-adjuster {
-                                            padding-top: 20px;
-                                            margin-top: 40px;
-                                        }
-                                        
-                                        .image-adjust {
-                                            margin-top: 0px;
-                                        }
+                                                    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Carter+One&family=Changa:wght@600&family=MuseoModerno:wght@600&display=swap');
+                                                    * {
+                                                        margin: 0px;
+                                                        padding: 0px;
+                                                        -webkit-box-sizing: border-box;
+                                                        -moz-box-sizing: border-box;
+                                                        box-sizing: border-box;
+                                                        font-family: 'Carter One', cursive;
+                                                    }
+                                                    
+                                                    .blue-navbar {
+                                                        background-color: rgb(105, 105, 236) !important;
+                                                    }
+                                                    
+                                                    .blue-box {
+                                                        width: 100%;
+                                                        margin: 10px;
+                                                        padding: 110px;
+                                                        background-color: rgb(105, 105, 236);
+                                                        color: white;
+                                                        border-radius: 15px 50px 30px;
+                                                    }
+                                                    
+                                                    .navbar ul li a.act,
+                                                    .navbar ul li a:hover {
+                                                        background-color: white;
+                                                        color: blue !important;
+                                                    }
+                                                    
+                                                    .navbar ul li a {
+                                                        padding: 7px 15px;
+                                                        margin: 0px 15px;
+                                                    }
+                                                    
+                                                    .i.act,
+                                                    .i:hover {
+                                                        color: blue !important;
+                                                    }
+                                                    
+                                                    h1 {
+                                                        color: white;
+                                                        text-shadow: 1px 1px 1px black, 0 0 15px blue, 0 0 5px darkblue;
+                                                    }
+                                                    
+                                                    .home-footer {
+                                                        padding: 7px 15px;
+                                                        margin: 0px 15px;
+                                                        color: rgb(158, 146, 146);
+                                                    }
+                                                    
+                                                    .the-row {
+                                                        background: rgb(105, 105, 236);
+                                                        border-radius: 30px;
+                                                        box-shadow: 8px 8px 8px;
+                                                    }
+                                                    
+                                                    .login {
+                                                        border-top-left-radius: 30px;
+                                                        border-bottom-left-radius: 30px;
+                                                        background-color: rgb(105, 105, 236);
+                                                    }
+                                                    
+                                                    .inp {
+                                                        height: 50px;
+                                                        width: 70%;
+                                                        border: none;
+                                                        outline: none;
+                                                        border-radius: 60px;
+                                                        box-shadow: -1px -2px 18px -3px rgba(56, 150, 212, 0.51);
+                                                        -webkit-box-shadow: -1px -2px 18px -3px rgba(56, 150, 212, 0.51);
+                                                        -moz-box-shadow: -1px -2px 18px -3px rgba(56, 150, 212, 0.51);
+                                                    }
+                                                    
+                                                    .btn1 {
+                                                        height: 50px;
+                                                        width: 50%;
+                                                        border: none;
+                                                        outline: none;
+                                                        border-radius: 60px;
+                                                        font-weight: 600;
+                                                        background: white;
+                                                        color: rgb(105, 105, 236);
+                                                    }
+                                                    
+                                                    .btn1:hover {
+                                                        background: rgb(105, 105, 236);
+                                                        color: white;
+                                                    }
+                                                    
+                                                    .i:hover {
+                                                        background: rgb(105, 105, 236);
+                                                    }
+                                                    
+                                                    select {
+                                                        background: rgb(105, 105, 236);
+                                                        color: white;
+                                                        border: none;
+                                                    }
+                                                    
+                                                    .logo-image {
+                                                        padding-top: 30px;
+                                                        margin: 10px;
+                                                    }
+                                                    
+                                                    .header-adjuster {
+                                                        padding-top: 20px;
+                                                        margin-top: 40px;
+                                                    }
+                                                    
+                                                    #filtersubmit {
+                                                        position: relative;
+                                                        z-index: 1;
+                                                        left: 268px;
+                                                        top: 5px;
+                                                        width: 0;
+                                                        color: rgb(105, 105, 236);
+                                                        cursor: pointer;
+                                                    }

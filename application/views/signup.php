@@ -68,10 +68,10 @@
 </section>
 
 <!-- the section below contains the login form-->
-<section class="login py-5 bg-light my-5">
+<section class="login bg-light py-5">
      <div class="container">
           <div class="row the-row g-0">
-             <div class="col-lg-12 text-center py-5">
+             <div class="col-lg-12 text-center py-3">
               
              <h1 class="animate__animated animate__pulse" style="color: #fff;"> Job Seeker Account Registration</h1>
             
@@ -117,7 +117,7 @@
   
                                      <div class="offset-6 col-lg-3">
                           
-                                           <a href="<?php echo base_url('Seeker_Signup/signup_2'); ?>"><button type="button" class="btn1">Next</button></a>
+                                           <a href="<?php echo base_url('Seeker2_signup'); ?>"><button type="button" class="btn1">Next</button></a>
                                         
                                      </div>
                           
@@ -155,7 +155,7 @@
                       <i class="fab fa-instagram fa-lg  mr-md-5 mr-3 fa-3x"> </i>
             </a>
 
-            <div class="footer-copyright text-center py-5">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
+            <div class="footer-copyright text-center py-3">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
                     
               </div>
         </div>
@@ -168,7 +168,4 @@
   </div>
 </footer>
 <!-- Footer -->
-
-
-
 </html>

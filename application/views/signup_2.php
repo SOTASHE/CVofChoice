@@ -23,21 +23,23 @@
   <title>Job Seeker New Account | CV of Choice</title>
   </head>
   <body>
-<section>
-<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+<section  class="py-5">
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-3" role="navigation">
   <div style="position:fixed;"class="container-fluid blue-navbar" >
     <a class="navbar-brand" href="#">
-      <img src="../assets/images/official.png" class="img-circle  img-fluid"  alt="our logo" width="140" height="130">
-    </a>
+       <div class="logo-image">
+         <img src="../assets/images/official.png" class="img-circle  img-fluid"  alt="our logo" width="140" height="130">
+       </div>
+        </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-      <li class="nav-item">
-          <a style="color: white;" class="nav-link" href="<?php echo base_url('Landing_page');?>">Home</a>
-        </li>
+         <li class="nav-item">
+            <a style="color: white;" class="nav-link" href="<?php echo base_url('Landing_page');?>">Home</a>
+         </li>
 
         <li class="nav-item">
           <a style="color: white;" class="nav-link">
@@ -57,10 +59,6 @@
         <li class="nav-item">
           <a style="color: white;" class="nav-link" href="<?php echo base_url('About_us');?>">About Us</a>
         </li>
-
-        <li class="nav-item">
-          <a style="color: white;" class="nav-link" href="#">Terms and Conditions</a>
-        </li>
     </ul>
   </div>
 </div>
@@ -68,10 +66,10 @@
 </section>
 
 <!-- the section below contains the login form-->
-<section class="login py-5 bg-light my-5">
+<section class="login bg-light py-5">
      <div class="container">
           <div class="row the-row g-0">
-             <div class="col-lg-12 text-center py-5">
+             <div class="col-lg-12 text-center py-3">
               
              <h1 class="animate__animated animate__pulse" style="color: #fff;">Almost there...</h1>
             
@@ -113,11 +111,16 @@
                     </div>
 
                       <div class="form-row py-3 white-text">
-  
-                           <div class="offset-6 col-lg-3">
-                              <a href="<?php echo base_url('Seeker_Signup/signup_3'); ?>"><button type="button" class="btn1">Next</button></a>
+                          <div class=row>
+                                   <div class="offset-2 col-md-4">
+                                      <a href="<?php echo base_url('Seeker_Signup'); ?>"><button type="button" class="btn1">Previous</button></a>
+                                   </div>
+
+                                   <div  class="col-md-4">
+                                      <a href="<?php echo base_url('Seeker3_signup'); ?>"><button type="button" class="btn1">Next</button></a>
+                                   </div>
+                                    
                           </div>
-                          
                       </div>
                    </div>
                    
@@ -126,7 +129,7 @@
            </div>
      </div>
 </section>
-  </body>
+</body>
   <footer class="page-footer text-center font-small cyan darken-3 blue-navbar">
   <!-- Footer Elements -->
   <div class="container">
@@ -152,7 +155,7 @@
                       <i class="fab fa-instagram fa-lg  mr-md-5 mr-3 fa-3x"> </i>
             </a>
 
-            <div class="footer-copyright text-center py-5">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
+            <div class="footer-copyright text-center py-3">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
                     
               </div>
         </div>

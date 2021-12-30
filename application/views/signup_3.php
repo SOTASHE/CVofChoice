@@ -23,12 +23,14 @@
   <title>Job Seeker New Account | CV of Choice</title>
   </head>
   <body>
-<section>
-<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+<section class="py-5">
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-3" role="navigation">
   <div style="position:fixed;"class="container-fluid blue-navbar" >
     <a class="navbar-brand" href="#">
-      <img src="../assets/images/official.png" class="img-circle  img-fluid"  alt="our logo" width="140" height="130">
-    </a>
+      <div class="logo-image">
+        <img src="../assets/images/official.png" class="img-circle  img-fluid"  alt="our logo" width="140" height="130">
+      </div>
+   </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -67,7 +69,7 @@
 </section>
 
 <!-- the section below contains the login form-->
-<section class="login py-5 bg-light my-5">
+<section class="login bg-light py-5">
      <div class="container">
           <div class="row the-row g-0">
              <div class="col-lg-12 text-center py-5">
@@ -93,33 +95,38 @@
                                 <input type="text" class="inp px-3 text-center" placeholder="Area Code" style="color:rgb(105, 105, 236);" required>
                           </div>
                     </div>
-                    
 
-                    <div class="form-row py-2">
-                          <div class="offset-2 col-lg-8">
-                                <input type="text" class="inp px-3 text-center" placeholder="Upload Supporting Video" style="color:rgb(105, 105, 236);" required>
-                          </div>
-                    </div>
+                   <div class=" offset-2 form-row py-2 custom-file">
+                      <label class="custom-file-label" for="customFile" style="color:white;" required>Upload Supporting Video</label>
+                        <input type="file" class="custom-file-input" id="customFile" placeholder="Upload Supporting Video" style="color:white;" required>
+                  </div>
 
                     <h3 class="animate__animated animate__pulse col-lg-12 py-3" style="color: #fff;">Now let's create a password for your account...</h3>
                     <div class="form-row py-2">
-                          <div class="offset-3 col-lg-6">
+                          <div class="offset-4 col-lg-4 text-center">
+                                <i id="filtersubmit" class="fas fa-lock fa-2x " aria-hidden="true"></i>
                                 <input type="text" class="inp px-3 text-center" placeholder="Password" style="color:rgb(105, 105, 236);" required>
                           </div>
                     </div>
 
                     <div class="form-row py-2">
-                          <div class="offset-3 col-lg-6">
+                          <div class="offset-4 col-lg-4 text-center">
+                                 <i id="filtersubmit" class="fas fa-lock fa-2x " aria-hidden="true"></i>
                                 <input type="text" class="inp px-3 text-center" placeholder="Confirm Password" style="color:rgb(105, 105, 236);" required>
                           </div>
                     </div>
 
                       <div class="form-row py-3 white-text">
   
-                                <div class="offset-5 col-lg-2">
-                                       <form method="" action="<?php  echo base_url(); ?>​../Signup/signup2">
-                                           <button id=""  type="submit" class="btn1">Register</button>
-                                       </form>
+                      <div class=row>
+                                  <div class="offset-2 col-md-4">
+                                      <a href="<?php echo base_url('Seeker2_signup'); ?>"><button type="button" class="btn1">Previous</button></a>
+                                  </div>
+
+                                  <div  class="col-md-4">
+                                      <a href="<?php echo base_url(''); ?>"><button type="button" class="btn1">Register</button></a>
+                                  </div>
+                                    
                                 </div>
                           
                       </div>
@@ -133,11 +140,11 @@
   </body>
   <footer class="page-footer text-center font-small cyan darken-3 blue-navbar">
   <!-- Footer Elements -->
-  <div class="container">
+  <div class="container py-1">
     <!-- Grid row-->
     <div class="row">
       <!-- Grid column -->
-      <div class="col-md-12 py-5 home-footer " >
+      <div class="col-md-12 py-2 home-footer " >
         <div class="mb-5 flex-center" style="color: white; padding: 7px 15px; margin: 0px 15px;" >
           <!-- Facebook -->
           <a class="fb-ic " style="background-color: rgb(105, 105, 236); color: white; padding: 7px 15px; margin: 0px 15px;" href="">
@@ -156,7 +163,7 @@
                       <i class="fab fa-instagram fa-lg  mr-md-5 mr-3 fa-3x"> </i>
             </a>
 
-            <div class="footer-copyright text-center py-5">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
+            <div class="footer-copyright text-center py-3">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
                     
               </div>
            </div>

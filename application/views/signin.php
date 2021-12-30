@@ -24,15 +24,14 @@
   </head>
   <body>
       <!--the following section belongs to the navigation bar-->
-     <section>
-        </br>
-        </br>
-        </br>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+     <section class="py-5">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light py-3" role="navigation">
             <div style="position:fixed;"class="container-fluid blue-navbar" >
              <a class="navbar-brand" href="#">
-               <img src="../assets/images/official.png" class="img-circle  img-fluid"  alt="our logo" width="140" height="130">
-            </a>
+                  <div class="logo-image">
+                     <img src="../assets/images/official.png" class="img-circle  img-fluid"  alt="our logo" width="140" height="130">
+                  </div>
+             </a>
 
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -70,34 +69,34 @@
 </nav>
 </section>
 <!-- the section below contains the login form-->
-<section class="login py-5 bg-light my-5">
+<section class="login bg-light py-5">
      <div class="container">
           <div class="row the-row g-0">
-             <div class="col-lg-12 text-center py-5">
+             <div class="col-lg-12 text-center py-3">
               
              <h1 class="animate__animated animate__pulse" style="color: #fff;">Job Seeker Account Login</h1>
             <!-- the actual login form begins-->
             <form class="text-center">
                   <div class="form-row py-3 pt-5">
                      <div class="offset-4 col-lg-4 text-center">
-                                 <i class="fa fa-envelope fa-3x" style="color: #fff;" aria-hidden="true"></i>
+                                 <i id="filtersubmit" class="fa fa-envelope fa-2x" aria-hidden="true"></i>
                                  <input type="text" class="inp px-3 " placeholder="Email :" required>
                      </div>
                    </div>
 
                      <div class="form-row">
                           <div class="offset-4 col-lg-4 text-center">
-                                <i class="fas fa-lock fa-3x " aria-hidden="true"></i>
-                                <input type="passord" class="inp px-3" placeholder="Password :" required>
+                                  <i id="filtersubmit" class="fas fa-lock fa-2x " aria-hidden="true"></i>
+                                <input type="password" class="inp px-3" placeholder="Password :" required>
                           </div>
                           </div>
 
                           <div class="form-row py-3 white-text">
                                 <p style="color:white;">No Account yet?<a style="color:white;" href="#">  Create Account</a></p>
                                     <div class="offset-5 col-lg-2">
-                                      <button class="btn1">Login</button>
+                                      <button class="btn1"><a href="Seeker_feed">Login</a></button>
                                   <p style="color:white;" class="py-2">forgot password?<a style="color:white;" href="#">Click here</a></p>
-                                </div>
+                          </div>
                           
                           </div>
                    </div>
@@ -112,11 +111,9 @@
   </body>
   <footer class="page-footer text-center font-small cyan darken-3 blue-navbar">
   <!-- Footer Elements -->
-  <div class="container">
+  <div class="container py-1">
     <!-- Grid row-->
     <div class="row">
-<br/>
-<br/>
       <!-- Grid column -->
       <div class="col-md-12 py-5 home-footer " >
         <div class="mb-5 flex-center" style="color: white; padding: 7px 15px; margin: 0px 15px;" >
@@ -140,8 +137,8 @@
             <div class="footer-copyright text-center py-5">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
                     
               </div>
-        </div>
-<br/>
+         </div>
+
          <!-- Copyright -->
             
       </div>
@@ -151,5 +148,4 @@
   </div>
 </footer>
 <!-- Footer -->
-
 </html>
