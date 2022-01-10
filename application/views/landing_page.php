@@ -30,7 +30,7 @@
     <div style="position:fixed;"class="container-fluid blue-navbar" >
         <a class="navbar-brand" href="#">
           <div class="logo-image">
-           <img src="../assets/images/official.png" class="img-circle img-fluid"  alt="our logo" width="140" height="130">
+           <img src="../assets/images/1.png" class="img-circle img-fluid"  alt="our logo" width="140" height="130">
           </div>
         </a>
     
