@@ -14,23 +14,21 @@
     <!-- Linking  Custom CSS-->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>../assets/css/landing.css">
     <script type='text/javascript' src="<?php echo base_url(); ?>js/jquery.min.js"></script>
-  
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/01cb51acf5.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
-
     <title>Job Seeker Feed| CV of Choice</title>
-    </head>
+</head>
 <body>   
 <section class= "img-fluid py-5">
  <nav class="py-3 navbar navbar-expand-lg navbar-light bg-light" role="navigation">
     <div style="position:fixed;"class="container-fluid blue-navbar" >
         <a class="navbar-brand" href="#">
           <div class="logo-image">
-           <img src="../assets/images/official.png" class="img-circle img-fluid"  alt="our logo" width="140" height="130">
+           <img src="../assets/images/3.png" class="img-circle img-fluid"  alt="our logo" width="130" height="120">
           </div>
         </a>
     
