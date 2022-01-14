@@ -1,22 +1,23 @@
-                                                    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Carter+One&family=Changa:wght@600&family=MuseoModerno:wght@600&display=swap');
+                                                    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Carter+One&family=Changa:wght@600&family=Gloria+Hallelujah&family=MuseoModerno:wght@600&family=Open+Sans:wght@300;400&display=swap');
+                                                    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Carter+One&family=Changa:wght@600&family=MuseoModerno:wght@600&family=Open+Sans:wght@300;400&display=swap');
                                                     * {
                                                         margin: 0px;
                                                         padding: 0px;
                                                         -webkit-box-sizing: border-box;
                                                         -moz-box-sizing: border-box;
                                                         box-sizing: border-box;
-                                                        font-family: 'Carter One', cursive;
+                                                        font-family: 'Open Sans', sans-serif;
                                                     }
                                                     
                                                     .blue-navbar {
-                                                        background-color: rgb(105, 105, 236) !important;
+                                                        background-color: rgb(56, 104, 236) !important;
                                                     }
                                                     
                                                     .blue-box {
                                                         width: 100%;
                                                         margin: 10px;
                                                         padding: 110px;
-                                                        background-color: rgb(105, 105, 236);
+                                                        background-color: rgb(56, 104, 236);
                                                         color: white;
                                                         border-radius: 15px 50px 30px;
                                                     }
@@ -40,27 +41,27 @@
                                                     h1 {
                                                         color: white;
                                                         text-shadow: 1px 1px 1px black, 0 0 15px blue, 0 0 5px darkblue;
+                                                        font-family: 'Carter One', cursive;
                                                     }
                                                     
                                                     .home-footer {
                                                         padding: 7px 15px;
                                                         margin: 0px 15px;
-                                                        color: rgb(158, 146, 146);
+                                                        color: rgb(56, 104, 236);
                                                     }
                                                     
                                                     .the-row {
-                                                        background: rgb(105, 105, 236);
+                                                        background: rgb(56, 104, 236);
                                                         border-radius: 30px;
-                                                        box-shadow: 8px 8px 8px;
                                                     }
                                                     
                                                     .login {
                                                         border-top-left-radius: 30px;
                                                         border-bottom-left-radius: 30px;
-                                                        background-color: rgb(105, 105, 236);
+                                                        background-color: rgb(56, 104, 236);
                                                     }
                                                     
-                                                    .inp {
+                                                    .input-field {
                                                         height: 50px;
                                                         width: 70%;
                                                         border: none;
@@ -79,20 +80,20 @@
                                                         border-radius: 60px;
                                                         font-weight: 600;
                                                         background: white;
-                                                        color: rgb(105, 105, 236);
+                                                        color: rgb(56, 104, 236);
                                                     }
                                                     
                                                     .btn1:hover {
-                                                        background: rgb(105, 105, 236);
+                                                        background: rgb(56, 104, 236);
                                                         color: white;
                                                     }
                                                     
                                                     .i:hover {
-                                                        background: rgb(105, 105, 236);
+                                                        background: rgb(56, 104, 236);
                                                     }
                                                     
                                                     select {
-                                                        background: rgb(105, 105, 236);
+                                                        background: rgb(56, 104, 236);
                                                         color: white;
                                                         border: none;
                                                     }
@@ -113,6 +114,15 @@
                                                         left: 268px;
                                                         top: 5px;
                                                         width: 0;
-                                                        color: rgb(105, 105, 236);
+                                                        color: rgb(56, 104, 236);
                                                         cursor: pointer;
+                                                    }
+                                                    
+                                                    .blue-background {
+                                                        background-color: rgb(56, 104, 236);
+                                                        color: white;
+                                                    }
+                                                    
+                                                    .underline {
+                                                        text-decoration: none !important;
                                                     }

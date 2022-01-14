@@ -16,11 +16,11 @@
     <script type='text/javascript' src="<?php echo base_url(); ?>js/jquery.min.js"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/01cb51acf5.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
-  <title>Recruiter Login  | CV of Choice</title>
+    <script src="https://kit.fontawesome.com/01cb51acf5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
+    <title>Recruiter Login  | CV of Choice</title>
   </head>
   <body>
       <!--the following section belongs to the navigation bar-->
@@ -29,7 +29,7 @@
             <div style="position:fixed;"class="container-fluid blue-navbar" >
              <a class="navbar-brand" href="#">
                    <div class="logo-image">
-                      <img src="../assets/images/official.png" class="img-circle  img-fluid"  alt="our logo" width="140" height="130">
+                      <img src="../assets/images/1.png" class="img-circle  img-fluid"  alt="our logo" width="140" height="130">
                    </div>
              </a>
 
@@ -78,22 +78,22 @@
                   <div class="form-row py-3 pt-5">
                      <div class="offset-4 col-lg-4 text-center">
                      <i id="filtersubmit" class="fa fa-envelope fa-2x" aria-hidden="true"></i>
-                          <input type="text" class="inp px-3 " placeholder="Email :" required >       
+                          <input type="text" class="input-field px-3 " placeholder="Email :" required >       
                      </div>
                    </div>
 
                      <div class="form-row">
                           <div class="offset-4 col-lg-4">
                           <i id="filtersubmit" class="fas fa-lock fa-2x " aria-hidden="true"></i>
-                                <input type="passord" class="inp px-3" placeholder="Password :" required>
+                                <input type="passord" class="input-field px-3" placeholder="Password :" required>
                           </div>
                           </div>
 
                           <div class="form-row py-3 white-text">
-                                <p style="color:white;">No Account yet?<a style="color:white;" href="#">  Create Account</a></p>
+                                <p style="color:white;">No Account yet?<a style=" text-decoration: none !important;color:white;" href="#">  Create Account</a></p>
                                     <div class="offset-5 col-lg-2">
-                                      <button class="btn1"><a href="Employer_feed">Login</a></button>
-                                  <p style="color:white;" class="py-2">forgot password?<a style="color:white;" href="#">Click here</a></p>
+                                      <button class="btn1"><a href="Employer_feed" style=" text-decoration: none !important;">Login</a></button>
+                                  <p style="color:white;" class="py-2">forgot password?<a style=" text-decoration: none !important;color:white;" href="#">Click here</a></p>
                                 </div>
                           
                           </div>
@@ -104,44 +104,193 @@
            </div>
      </div>
 </section>
-  </body>
-  <footer class="page-footer text-center font-small cyan darken-3 blue-navbar">
-  <!-- Footer Elements -->
-  <div class="container py-1">
-    <!-- Grid row-->
-    <div class="row">
-
+</body>
+  
+                   
+         <!-- Footer -->     
+<footer  class="py-5 page-footer text-center font-small cyan darken-3 blue-navbar">
+  <div class="container">
       <!-- Grid column -->
-      <div class="col-md-12 py-5 home-footer " >
-        <div class="mb-5 flex-center" style="color: white; padding: 7px 15px; margin: 0px 15px;" >
-          <!-- Facebook -->
-          <a class="fb-ic " style="background-color: rgb(105, 105, 236); color: white; padding: 7px 15px; margin: 0px 15px;" href="">
-            <i class="fab fa-facebook-f fa-lg mr-md-5 mr-3 fa-3x" > </i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic" style="background-color: rgb(105, 105, 236); color: white; padding: 7px 15px; margin: 0px 15px;" href="">
-            <i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-3x"> </i>
-          </a>
-          <!--Linkedin -->
-            <a class="li-ic"style="background-color: rgb(105, 105, 236); color: white; padding: 7px 15px; margin: 0px 15px;" href="">
-                     <i class="fab fa-linkedin-in fa-lg mr-md-5 mr-3 fa-3x"> </i>
-            </a>
-                 <!--Instagram-->
-            <a class="ins-ic" style=" background-color: rgb(105, 105, 236); color: white; padding: 7px 15px; margin: 0px 15px;" href="">
-                      <i class="fab fa-instagram fa-lg  mr-md-5 mr-3 fa-3x"> </i>
-            </a>
+       <div class="col-md-12  home-footer">
+         <!-- Grid column -->
+      
+         <div class="row">
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
 
-            <div class="footer-copyright text-center py-5">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
-                    
-              </div>
-        </div>
-         <!-- Copyright -->
-            
+                                            <!-- Jobs by province -->
+        <p class=" blue-background font-weight-bold text-uppercase mt-3 mb-4">Candidates by location</hp>
+
+        <ul class="list-unstyled ">
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Gauteng ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">KwaZulu Natal ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Eastern Cape ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Limpopo ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Western Cape ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Northen Cape ()
+           </a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Mpumalanga ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Northen Cape ()
+           </a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Free State ()</a>
+          </li>
+        </ul>
+
       </div>
       <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <p class="blue-background  font-weight-bold text-uppercase mt-3 mb-4">Search graduates</p>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">computer science &IT ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Accounting and Business ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Human Resources ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;"class="blue-background mx-2">Law ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Mathematics & Statistics ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Agriculture ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Engineering ()</a>
+          </li>
+         
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+                                  <!-- Jobs by sector -->
+        <p class=" blue-background font-weight-bold text-uppercase mt-3 mb-4">Candidates by sector</p>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">IT and Software ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Finance ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Sales ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Engineering ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class=" blue-background mx-2">Manufacturing ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Accounting ()</a>
+          </li>
+          <li>
+            <a href="#!"  style=" text-decoration: none !important;" class="blue-background mx-2">Insurance Jobs ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">Administration ()</a>
+          </li>
+          <li>
+            <a href="#!" style=" text-decoration: none !important;" class="blue-background mx-2">General Workers ()</a>
+          </li>
+        </ul>
+        
+      </div>
+                        <!--Our contacts-->
+      <div class="col-md-2 mx-auto">
+     
+         <p class=" blue-background font-weight-bold text-uppercase mt-3 mb-4">Our Contacts</p>
+
+           <p class="blue-background mx-2">
+              <i class="fas fa-home mr-3"></i> Madadeni, N 93 Section 7, Newcastle, South Africa
+           </p>
+             
+         
+            <p  class="blue-background mx-2">
+              <i class="fas fa-envelope mr-3"></i> info@cvofchoice.com 
+            </p>
+
+            <p class="blue-background mx-2">
+               <i class="fas fa-phone mr-3"></i> + 011 0000 000
+            </p>
+    
+      </div>
+     
+
     </div>
-    <!-- Grid row-->
+  
+
+  </div>
+  <hr/>
+           <div class="py-5 mb-5 flex-center " >
+                       <!-- Facebook -->
+               <a class="fb-ic mx-3"  href="">
+                  <i class="fab fa-facebook-f fa-lg mr-md-5 fa-2x blue-background " > </i>
+               </a>
+                        <!-- Twitter -->
+               <a class="tw-ic mx-3"  href="">
+                    <i class="fab fa-twitter fa-lg mr-md-5 fa-2x blue-background"> </i>
+               </a>
+                         <!--Linkedin -->
+               <a class="li-ic mx-3" href="">
+                     <i class="fab fa-linkedin-in fa-lg mr-md-5 fa-2x blue-background "> </i>
+               </a>
+                 
+                         <!--Instagram-->
+                <a class="ins-ic mx-3"  href="">
+                       <i class="fab fa-instagram fa-lg  mr-md-5  fa-2x blue-background"> </i>
+                </a>
+            
+                <a class=" blue-background mx-3" style=" text-decoration: none !important;" href="#">Terms of Service
+
+                </a>
+                          
+                       <!-- Copyright -->
+            <div  class=" blue-background footer-copyright text-center py-3 mx-2">© 2022 Copyright:
+                <a href="#" style=" text-decoration: none !important;" class="blue-background mx-3">CV of Choice</a>
+                <p class="blue-background mx-3 py-3">Affiliated with <a href="http://www.creativelizard.co.za" style=" text-decoration: none !important;" class="blue-background">CreativeLizard (Pty) Ltd.</a></p>
+            </div>
+
+          </div>
+        
+      </div>
+      
+     
   </div>
 </footer>
-<!-- Footer -->
 </html>

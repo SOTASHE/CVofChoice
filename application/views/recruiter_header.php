@@ -21,16 +21,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
-
     <title>Recruiter Feed | CV of Choice</title>
-    </head>
+</head>
 <body>   
 <section class= "img-fluid py-5">
  <nav class="py-3 navbar navbar-expand-lg navbar-light bg-light" role="navigation">
     <div style="position:fixed;"class="container-fluid blue-navbar" >
         <a class="navbar-brand" href="#">
           <div class="logo-image">
-           <img src="../assets/images/official.png" class="img-circle img-fluid"  alt="our logo" width="140" height="130">
+           <img src="../assets/images/3.png" class="img-circle img-fluid"  alt="our logo" width="140" height="130">
           </div>
         </a>
     
