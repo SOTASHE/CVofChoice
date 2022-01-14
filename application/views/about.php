@@ -16,21 +16,18 @@
     <script type='text/javascript' src="<?php echo base_url(); ?>js/jquery.min.js"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/01cb51acf5.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
-  <title>About Us | CV of Choice</title>
-  </head>
-  <body>
-<section>
-</br>
-</br>
-</br>
+    <script src="https://kit.fontawesome.com/01cb51acf5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap" rel="stylesheet">
+    <title>About Us | CV of Choice</title>
+</head>
+<body>
+<section class="py-5">
 <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
   <div style="position:fixed;"class="container-fluid blue-navbar" >
     <a class="navbar-brand" href="#">
-      <img src="../assets/images/official.png" class="img-circle  img-fluid"  alt="our logo" width="150" height="150">
+      <img src="../assets/images/1.png" class="img-circle  img-fluid"  alt="our logo" width="150" height="150">
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,45 +71,45 @@
 </nav>
 </section>
 </body>
-  <footer class="page-footer text-center font-small cyan darken-3 blue-navbar">
-  <!-- Footer Elements -->
+  
+       <!-- Footer -->     
+       <footer  class=" page-footer text-center font-small cyan darken-3 blue-navbar">
   <div class="container">
-    <!-- Grid row-->
-    <div class="row">
       <!-- Grid column -->
-      <div class="col-md-12 py-5 home-footer " >
-        <div class="mb-5 flex-center" style="color: white; padding: 7px 15px; margin: 0px 15px;" >
-          <!-- Facebook -->
-          <a class="fb-ic " style="background-color: rgb(105, 105, 236); color: white; padding: 7px 15px; margin: 0px 15px;" href="">
-            <i class="fab fa-facebook-f fa-lg mr-md-5 mr-3 fa-3x" > </i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic" style="background-color: rgb(105, 105, 236); color: white; padding: 7px 15px; margin: 0px 15px;" href="">
-            <i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-3x"> </i>
-          </a>
-          <!--Linkedin -->
-            <a class="li-ic"style="background-color: rgb(105, 105, 236); color: white; padding: 7px 15px; margin: 0px 15px;" href="">
-                     <i class="fab fa-linkedin-in fa-lg mr-md-5 mr-3 fa-3x"> </i>
-            </a>
-                 <!--Instagram-->
-            <a class="ins-ic" style=" background-color: rgb(105, 105, 236); color: white; padding: 7px 15px; margin: 0px 15px;" href="">
-                      <i class="fab fa-instagram fa-lg  mr-md-5 mr-3 fa-3x"> </i>
-            </a>
+       <div class="col-md-12 py-5 home-footer">
+           <div class="py-3 mb-5 flex-center " >
+                       <!-- Facebook -->
+               <a class="fb-ic mx-3"  href="">
+                  <i class="fab fa-facebook-f fa-lg mr-md-5 fa-3x blue-background " > </i>
+               </a>
+                        <!-- Twitter -->
+               <a class="tw-ic mx-3"  href="">
+                    <i class="fab fa-twitter fa-lg mr-md-5 fa-3x blue-background"> </i>
+               </a>
+                         <!--Linkedin -->
+               <a class="li-ic mx-3" href="">
+                     <i class="fab fa-linkedin-in fa-lg mr-md-5 fa-3x blue-background "> </i>
+               </a>
+                 
+                         <!--Instagram-->
+                <a class="ins-ic mx-3"  href="">
+                       <i class="fab fa-instagram fa-lg  mr-md-5  fa-3x blue-background"> </i>
+                </a>
+            
+                <a  class="blue-background mx-3" href="#">Terms of Service
 
-            <div class="footer-copyright text-center py-5">2021 Copyright © <a href="#" style="color: white;">CV of Choice</a>.&nbsp; All rights reserved
-                    
-              </div>
-        </div>
-         <!-- Copyright -->
+                </a>
+                          
+                       <!-- Copyright -->
+            <div class=" blue-background footer-copyright text-center py-2 mx-2">© 2022 Copyright:
+                <a href="#" class="blue-background mx-3">CV of Choice</a>
+            </div>
+
+          </div>
+         
             
       </div>
       <!-- Grid column -->
-    </div>
-    <!-- Grid row-->
   </div>
 </footer>
-<!-- Footer -->
-
-
-
 </html>
