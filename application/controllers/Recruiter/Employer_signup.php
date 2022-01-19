@@ -8,7 +8,8 @@
       }
 
       public function index(){
-            
-         $this->load->view('employer_signup_2');	
+         $this->load->view('Recruiter/header');
+         $this->load->view('Recruiter/employer_signup_2');	
+         $this->load->view('Recruiter/footer');
     }
   }

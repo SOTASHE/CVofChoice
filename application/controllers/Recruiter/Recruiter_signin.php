@@ -8,7 +8,9 @@
       }
 
       public function index(){  
-        $this->load->view('signin_2');	
+        $this->load->view('Recruiter/header');	
+        $this->load->view('Recruiter/signin_2');	
+        $this->load->view('Recruiter/footer');	
 
     }
 
