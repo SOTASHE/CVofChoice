@@ -7,7 +7,9 @@
          $this->load->helper('url');
       }
       public function index(){
-        $this->load->view('signup_2');	
+        $this->load->view('Seeker/header');	
+        $this->load->view('Seeker/signup_2');	
+        $this->load->view('Seeker/footer');	
     }
 
 }

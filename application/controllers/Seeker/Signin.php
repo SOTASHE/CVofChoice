@@ -8,13 +8,11 @@
       }
 
     public function index(){  
-        $this->load->view('signin');	
+        $this->load->view('Seeker/header');	
+        $this->load->view('Seeker/signin');	
+        $this->load->view('Seeker/footer');	
 
 
     }
-    public function recruiter_login(){ 
-        $this->load->view('signin_2');	
-
 
     }
-}
