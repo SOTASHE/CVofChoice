@@ -9,8 +9,9 @@ Class Employer_feed extends CI_Controller{
         
     function index(){
     //loading the welcome page
-       $this->load->view('recruiter_header');
-       $this->load->view('footer');
+       $this->load->view('Recruiter/feed_header');
+       $this->load->view('Recruiter/feed');
+       $this->load->view('Recruiter/footer');
 }
 }
 ?>

@@ -8,9 +8,10 @@ Class Seeker_feed extends CI_Controller{
         }
         
     function index(){
-    //loading the welcome page
-       $this->load->view('seeker_header.php');
-       $this->load->view('footer');
+    //loading the template
+       $this->load->view('Seeker/feed_header');
+       $this->load->view('Seeker/feed');
+       $this->load->view('Seeker/footer');
 }
 }
 ?>

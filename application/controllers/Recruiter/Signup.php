@@ -7,7 +7,8 @@
       $this->load->helper('url');
       }
     public function index(){
-            
-        $this->load->view('employer_signup');	
+        $this->load->view('Recruiter/header');	
+        $this->load->view('Recruiter/employer_signup');	
+        $this->load->view('Recruiter/footer');	
     }
   }
